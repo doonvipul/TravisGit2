@@ -1,6 +1,6 @@
 language: java
 
-before_script: cd TravisDemo
+before_script: cd TravisDemo2
 
 script: mvn install -DskipTests=true -Dmaven.javadoc.skip=true -B -V
 
